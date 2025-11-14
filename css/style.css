@@ -191,9 +191,8 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     gap: 50px;
-	background: #f2f2f2; /* lys grå */
+    background: #f2f2f2; /* lys grå */
 }
-
 /* ----- VENSTRE SIDE ----- */
 
 .line-group {
@@ -269,25 +268,20 @@ body {
 /* --- RESPONSIV --- */
 
 @media (max-width: 900px) {
-    .intro-section {
+    .section-Games {
         flex-direction: column;
         padding: 60px 20px;
     }
-@media (max-width: 900px) {
+
     .intro-right {
         grid-template-columns: repeat(2, 1fr);
     }
-}
 
-@media (max-width: 600px) {
-    .intro-right {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
     .intro-bigtext {
         font-size: 2.2rem;
     }
 }
+
 
 
 
