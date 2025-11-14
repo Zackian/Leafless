@@ -250,12 +250,47 @@ body {
     border: 1px solid #ddd;
 }
 
+/* BAGGRUND BILLEDER */
+.box-colorz {
+    background-image: url('img/colorz.jpg');
+}
+
+.box-gribley {
+    background-image: url('img/gribley.jpg');
+}
+
+.box-other {
+    background-image: url('img/other.jpg');
+}
+
+
+
 .feature-box:hover {
     background-color: #222;
     color: white;
     border-color: black;
 }
 
+/* OVERLAY for læsbar tekst */
+.feature-box::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+    border-radius: 12px;
+}
+
+
+/* Hover-effekt */
+.feature-box:hover::after {
+    background: rgba(0,0,0,0.5);
+}
+
+/* Tekst over overlay */
+.feature-box span {
+    position: relative;
+    z-index: 1;
+}
 /* --- RESPONSIV --- */
 
 @media (max-width: 900px) {
@@ -294,3 +329,4 @@ body {
         font-size: 1.8rem; /* mindre titel på mobil */
     }
 }
+
