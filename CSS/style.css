@@ -42,9 +42,9 @@ body {
 }
 
 .logo {
-   height: 50px;       /* juster efter behov */
-    max-height: 100%;   /* tving til ikke at overstige navbar */
-    width: auto;
+   height: 50px;       /* fast højde til navbar */
+    width: auto;        /* bevarer proportioner */
+    max-height: 70px;   /* maks højde = navbarens højde */
 }
 
 .company-name {
@@ -184,5 +184,6 @@ body {
     background: #eaeaea;
 
 }
+
 
 
