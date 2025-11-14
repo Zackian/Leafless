@@ -66,14 +66,11 @@ body {
 
 /* ----- SIDENS INDHOLD ----- */
 .content {
-    width: 100%;                /* fylder hele bredden */
-    max-width: 100%;            /* fjern begrænsning */
-    background: white;
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-	
-	
-	 margin-top: 50px;
+    width: 100%;
+    background: none;
+    padding: 0;
+    margin-top: 50px;
+    box-shadow: none;
 }
 
 
@@ -181,4 +178,5 @@ body {
     background: #eaeaea;
 
 }
+
 
