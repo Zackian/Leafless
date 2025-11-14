@@ -200,9 +200,9 @@ body {
 }
 
 .small-line {
-    width: 60px;
-    height: 3px;
-    background-color: #black;
+    width: 80px;          /* længere */
+    height: 4px;          /* tykkere */
+    background-color: #000; /* helt sort så den er tydelig */
     margin-bottom: 8px;
 }
 
@@ -239,8 +239,8 @@ body {
 
 .intro-right {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* MAX 3 pr række */
+    gap: 25px;
     flex: 1;
 }
 
@@ -277,6 +277,7 @@ body {
         font-size: 2.2rem;
     }
 }
+
 
 
 
