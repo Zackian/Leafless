@@ -272,3 +272,25 @@ body {
         font-size: 2.2rem;
     }
 }
+/* Responsiv video */
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh; /* lavere højde på mobil */
+    }
+
+    .background-video {
+        height: 100%;
+        object-fit: cover; /* beholder proportioner */
+    }
+
+    .hero-text {
+        bottom: 20px;  /* lidt mindre margin fra bunden */
+        left: 15px;
+        right: 15px;
+        gap: 10px;
+    }
+
+    .left-side h1 {
+        font-size: 1.8rem; /* mindre titel på mobil */
+    }
+}
