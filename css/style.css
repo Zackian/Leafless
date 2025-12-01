@@ -396,11 +396,11 @@ body {
 
 .box-Defense {
     background-image: url('../img/coreDef.png');
-	background-color: #9BD8E3
+	background-color: #161616
 }
 
 .box-Defense:hover {
-	background-color: #9BD8E3
+	background-color: #161616
 	color: white;
     border-color: white;
 }
@@ -582,5 +582,6 @@ body {
     color: white;
     transform: scale(1.05);   /* lille zoom-effekt */
 }
+
 
 
