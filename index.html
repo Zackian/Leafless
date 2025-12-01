@@ -10,14 +10,13 @@
    <header class="navbar">
         <div class="nav-left">
 		<!--Add Logo location and Company name below-->
-            <img src="img/Leafless - Company Logo.png" alt="Logo" class="logo">
-            <span class="company-name">Leafless</span>
+          <!--  <img src="img/Leafless - Company Logo.png" alt="Logo" class="logo"> -->
+		    <a href="../index.html" class="active">Leafless</a>
         </div>
 
         <nav class="nav-links">
-            <a href="#">Games</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="pages/games.html">Games</a>
+            <a href="pages/about.html">About</a>
 			<!--<a href="https://drive.google.com/uc?export=download&id=1-FFIZvPkhXtpvZ6aJvomDBmHGrSChWZF" target="_blank" download>Download demo</a> -->
             <!-- Tilføj flere her -->
         </nav>
@@ -47,8 +46,10 @@
         
 	
 	 <!-- Game Section -->
-    <section class="section-Games">
-        <div class="intro-left">
+    <section class="section-games">
+        
+		
+		<div class="intro-left">
 		   <div class="line-group">
             <div class="small-line"></div>
             <p class="line-text">Games</p>
@@ -56,43 +57,94 @@
 		 <h1 class="intro-bigtext">We create fun and exciting experiences</h1>
 
 		<!-- KNAP -->
-        <a href="#games" class="intro-button">OUR GAMES</a>
+        <a href="pages/games.html" class="intro-button">OUR GAMES</a>
 		</div>
 		
     
 	 <div class="intro-right">
 
         <!-- DYNAMISKE BOKSE -->
-         <a href="#" class="feature-box box-colorz">Colorz</a>
-        <a href="#" class="feature-box box-gribley">Gribley's Grudge</a>
-        <a href="#" class="feature-box">...</a>
-        <a href="#" class="feature-box">...</a>
- 		<a href="#" class="feature-box">...</a>
-        <a href="#" class="feature-box">...</a>
+        <a href="#" class="feature-box box-gribley"> Gribley's Grudge</a>
+		<a href="#" class="feature-box box-colorz">Project Colorz</a>
         <!-- NEMT AT TILFØJE FLERE -->
         <!-- <a href="#" class="feature-box">New Feature</a> -->
     </div>
 	
 	</section>
 
-    <!-- MORE CONTENT BOX -->
-    <section class="section services">
-        <h2>Our Services</h2>
-        <p>We offer web design, game development, and more.</p>
-    </section>
 
-    <!-- FINALE SECTION -->
-    <section class="section contact">
-        <h2>Contact Us</h2>
-        <p>Email: info@company.com</p>
-    </section>
+  <section class="section-about-enhanced">
+    <div class="about-left">
+        <div class="line-group">
+            <div class="small-line"></div>
+            <p class="line-text">About</p>
+        </div>
+        <h1 class="intro-bigtext">Our Vision</h1>
+        <p class="about-description">
+            At Leafless I/S, we aim to create games with personality, craftsmanship, and a clear creative direction. 
+            We believe in experimenting boldly, refining continuously, and delivering memorable experiences.
+        </p>
+        <a href="pages/about.html" class="intro-button">More about us</a>
+    </div>
+    <div class="about-right">
+        <img src="img/team.png" alt="Our team at work">
+    </div>
+</section>
+
+   
+
+   <section class="section-partners">
+    <h1>Leafless I/S</h1>
+    <div class="partners-grid">
+        <img src="img/GameHub.PNG" alt="Gamehub Denmark">
+        <img src="img/UnrealEngine.png" alt="Unreal Engine">
+        <img src="img/Blender.png" alt="Blender">
+		<img src="img/dania.png" alt="Dania">
+		<span class="text-logo">River Branch Games</span>
+    </div>
+</section>
 	
-	
+	 
+   
 	
     </main>
+	
+	 <!-- Social Banner -->
+	 <section class="social-banner">
+    
+	<div class="socials-wrapper">
+        <!-- Venstre: Firma navn -->
+        <div class="social-left">
+            <span class="company-name">©2025 Leafless I/S Inc. All trademarks belong to their respective owners. All rights reserved.</span>
+        </div>
+	
+	
+	<div class="socials-container">
+        <a href="https://www.facebook.com/LeaflessE" target="_blank" class="social-icon">
+            <img src="img/icons/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://x.com/LeaflessE" target="_blank" class="social-icon">
+            <img src="img/icons/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://discord.gg/zPZ6VHppkJ" target="_blank" class="social-icon">
+            <img src="img/icons/discord.png" alt="Discord">
+        </a>
+    </div>
+	</section>
+	
+	<script>
+<!-- Stopping feature-box from refreshing page -->	
+document.querySelectorAll('.feature-box').forEach(box => {
+    box.addEventListener('click', e => {
+        e.preventDefault();
+        console.log("Box clicked"); 
+    });
+});
+</script>
+	
+	
 </body>
 </html>
-
 
 
 
