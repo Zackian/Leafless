@@ -395,7 +395,7 @@ body {
 }
 
 .box-Defense {
-    background-image: url('../img/Defense.png');
+    background-image: url('../img/Colorz.png');
 	background-color: #9BD8E3
 }
 
@@ -582,6 +582,3 @@ body {
     color: white;
     transform: scale(1.05);   /* lille zoom-effekt */
 }
-
-
-
