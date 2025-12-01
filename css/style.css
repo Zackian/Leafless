@@ -440,7 +440,7 @@ body {
     }
 
     .intro-right {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .intro-bigtext {
@@ -582,5 +582,6 @@ body {
     color: white;
     transform: scale(1.05);   /* lille zoom-effekt */
 }
+
 
 
