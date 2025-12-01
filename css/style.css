@@ -317,7 +317,7 @@ body {
 
 .intro-right {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* MAX 3 pr række */
+    grid-template-columns: repeat(4, 1fr); /* MAX 3 pr række */
     gap: 25px;
     flex: 1;
 	background-color: #1A1919;
@@ -582,4 +582,5 @@ body {
     color: white;
     transform: scale(1.05);   /* lille zoom-effekt */
 }
+
 
