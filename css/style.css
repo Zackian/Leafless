@@ -383,6 +383,28 @@ body {
     border-color: black;
 }
 
+.box-Magic {
+    background-image: url('../img/MagicG.png');
+	background-color: #8B0000
+}
+
+.box-Magic:hover {
+	background-color: #8B0000
+	 color: white;
+    border-color: black;
+}
+
+.box-Defense {
+    background-image: url('../img/Defense.png');
+	background-color: #9BD8E3
+}
+
+.box-Defense:hover {
+	background-color: #9BD8E3
+	 color: white;
+    border-color: black;
+}
+
 .box-empty {
     background-color: transparent
 	width: 330px;
@@ -560,3 +582,4 @@ body {
     color: white;
     transform: scale(1.05);   /* lille zoom-effekt */
 }
+
