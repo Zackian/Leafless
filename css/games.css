@@ -1,0 +1,81 @@
+/* --- GAME PAGE --- */
+.games-list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 50px;
+    background: #1a1a1a;
+}
+
+.game-card {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: #232323;
+    border-radius: 12px;
+    padding: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.game-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.game-image img {
+    width: 400px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.game-info {
+    max-width: 600px;
+    color: #dedede;
+}
+
+.game-info h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.game-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Responsivt */
+@media (max-width: 900px) {
+    .game-card,
+    .game-card.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .game-image img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+.games-hero {
+    background: #111 url('img/about/hero.jpg') center/cover no-repeat;
+    padding: 120px 40px;
+    text-align: center;
+    color: white;
+}
+
+.games-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.games-hero p {
+    opacity: 0.8;
+    font-size: 1.2rem;
+}

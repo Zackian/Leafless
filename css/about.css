@@ -1,0 +1,157 @@
+/* --- HERO --- */
+.about-hero {
+    background: #111 url('img/about/hero.jpg') center/cover no-repeat;
+    padding: 120px 40px;
+    text-align: center;
+    color: white;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+
+/* --- GENEREL SECTION LAYOUT --- */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 40px;
+    gap: 50px;
+    background: #1a1a1a;
+}
+
+.about-section:nth-child(even) {
+    background: #161616;
+}
+
+.about-section.reverse {
+    flex-direction: row-reverse;
+}
+
+/* --- TEKST --- */
+.about-text {
+    max-width: 600px;
+    color: #dedede;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-text h3 {
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #4da3ff;
+}
+
+.about-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* --- BILLEDER --- */
+.about-image img {
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    object-fit: cover;
+}
+
+/* --- VISION SECTION --- */
+.about-vision {
+    padding: 100px 40px;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+.about-vision h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.about-vision p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+.about-team {
+    background: #111;
+    color: white;
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.about-team h2 {
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: #4da3ff;
+}
+
+/* Flex container for team members */
+/* --- TEAM SECTION --- */
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;         /* afstand mellem bokse */
+    flex-wrap: wrap;   /* gør det muligt at bryde til næste linje */
+    margin-top: 50px;
+}
+
+.team-member {
+    background: #1a1a1a;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+    flex: 1 1 300px;   /* vokser til plads, men min 300px */
+    max-width: 400px;  /* stopper ikke for stor */
+    color: #dedede;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: transform 0.25s;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.team-member h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.4rem;
+}
+
+.team-member p {
+    line-height: 1.5;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+/* --- RESPONSIV --- */
+@media (max-width: 768px) {
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .team-member {
+        max-width: 90%;
+    }
+}
