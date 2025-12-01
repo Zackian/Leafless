@@ -346,7 +346,7 @@ body {
 	background-color: #9D9D9D;
     border-radius: 12px;
 	border: 1px solid #ddd;
-
+	border-color: black;
   
 	background-size: contain;      /* vigtig */
     background-position: center; /* vigtig */
@@ -368,7 +368,7 @@ body {
 .box-gribley:hover {
 	background-color: #9D9D9D;
     color: white;
-    border-color: black;
+    border-color: white;
 }
 
 
@@ -379,8 +379,8 @@ body {
 
 .box-colorz:hover {
 	background-color: #9BD8E3
-	 color: white;
-    border-color: black;
+	color: white;
+    border-color: white;
 }
 
 .box-Magic {
@@ -390,8 +390,8 @@ body {
 
 .box-Magic:hover {
 	background-color: #8B0000
-	 color: white;
-    border-color: black;
+	color: white;
+    border-color: white;
 }
 
 .box-Defense {
@@ -401,8 +401,8 @@ body {
 
 .box-Defense:hover {
 	background-color: #9BD8E3
-	 color: white;
-    border-color: black;
+	color: white;
+    border-color: white;
 }
 
 .box-empty {
@@ -582,4 +582,5 @@ body {
     color: white;
     transform: scale(1.05);   /* lille zoom-effekt */
 }
+
 
